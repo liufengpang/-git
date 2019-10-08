@@ -25,3 +25,13 @@ def f2():
 
 
 f2()
+
+
+class People:
+    def __init__(self, name, age, sex):
+        self.name = name
+        self.age = age
+        self.sex = sex
+
+    def intro(self):
+        print('我叫{}，今年{}岁了，我是一个{}生'.format(self.name, self.age, self.sex))
