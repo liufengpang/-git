@@ -35,3 +35,5 @@ class People:
 
     def intro(self):
         print('我叫{}，今年{}岁了，我是一个{}生'.format(self.name, self.age, self.sex))
+def f5():
+    print(22222)
