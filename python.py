@@ -1,5 +1,13 @@
+import time
+
+
 def f1():
     for i in range(1, 10):
         for j in range(1, i + 1):
             print('{} * {} = {}'.format(j, i, j * i), end='\t')
         print()
+
+
+def f2():
+    for i in range(1, 100):
+        time.sleep(1)
